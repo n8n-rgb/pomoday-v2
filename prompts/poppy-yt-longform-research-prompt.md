@@ -169,8 +169,10 @@ VALUABLE INFORMATION:
       "no clear gap found" rather than inventing one.
 
 FAQ'S IN COMMENTS:
+  Comments are NOT part of a YouTube transcript. If a COMMENTS-* node is connected, that is
+  your only comment source — you cannot infer comments from the video itself.
   Per R4, first print which videos' comments you could actually read:
-    COMMENTS READ: <labels>
+    COMMENTS READ: <labels, and the COMMENTS-* node each came from>
     COMMENTS UNAVAILABLE: <labels> — [MANUAL: pull comments]
   Then, from the comments you did read:
 
@@ -463,10 +465,21 @@ E — EVALUATE THE THROUGHLINE  [YOURS]
    - VALUE CURVE: plot section by section whether perceived value is rising, flat or falling.
      Any flat or falling stretch longer than 90 seconds gets a fix recommendation.
 
-R — [YOUR NOTES DON'T DEFINE THE R — see the PLAYBOOK node and use its definition. If the
-   playbook does not define it either, print: "R undefined in playbook — proposing: REFINE" and
-   run this: identify the weakest 10% of the script by line, and rewrite only that 10%. Print
-   before and after. Do not touch the rest.]
+R — READ  [MINE to perform, YOURS to prepare]
+   The final uninterrupted read-through, from the viewer's seat. Not out loud — that was O. Not
+   line-editing. One continuous pass to check the whole thing holds together.
+   Produce a READ-THROUGH PACK, in this order:
+     1. THE CLEAN SCRIPT. The full current script with no annotations, brackets, notes, labels
+        or timestamps in the body. This is what I actually read. Everything else goes after it.
+     2. UNKEPT PROMISES. Every promise the title and hook make, and the timestamp where each is
+        kept. Any promise that is never kept is printed here first, in full. If there are none,
+        say "all promises kept" — do not pad the list.
+     3. CLICK-OFF PREDICTION. The three points where a first-time viewer is most likely to
+        leave, ranked, each with the exact line and one sentence on why.
+     4. CONTINUITY FLAGS. Anything that contradicts an earlier line, repeats a point already
+        made, or refers back to something never established. Quote both lines.
+     5. FIRST-TIME-VIEWER GAPS. Every term, name, number or concept used before it is explained.
+   Rewrite nothing in this step. The read is mine; the pack is what makes it fast.
 
 --- PLAYBOOK CHECK — PART 5 ---
 Print each line with PASS or FAIL. Fix every FAIL before stopping.
@@ -477,7 +490,8 @@ Print each line with PASS or FAIL. Fix every FAIL before stopping.
   5. Every section is judged against the throughline, and non-advancing sections are named for
      the cut without hedging.
   6. Every transition is quoted and rated; every JARRING one is rewritten.
-  7. The R step follows the playbook's definition, or the undefined notice is printed.
+  7. The R (Read) step produced a clean, annotation-free script body followed by the four
+     flag lists, and rewrote nothing.
   8. Name the specific PLAYBOOK rules on editing and revision, and show one line of evidence per
      rule.
 Then: STOP.
@@ -528,9 +542,10 @@ treat it as governing, and name its rules in all five PLAYBOOK CHECK blocks. If 
 hard-code the rules, paste the doc text into this chat and I'll rewrite the check blocks with
 its actual rule names.
 
-**2. Your P.O.W.E.R. notes only define P, O, W and E.** The R is missing. I left it as a slot
-that defers to the playbook, with "Refine — rewrite the weakest 10%" as a marked fallback. Tell
-me what R stands for and I'll write it properly.
+**2. R = Read.** Built as the final uninterrupted read-through from the viewer's seat —
+distinct from O, which is the out-loud pass. The model prepares a read-through pack (clean
+script, unkept promises, click-off prediction, continuity flags, viewer gaps) and rewrites
+nothing.
 
 **Optional:** if Poppy can't pull comments, I have vidIQ tools in this session that can fetch
 outliers, transcripts and comments directly. Say the word and I'll pull them into nodes you can
